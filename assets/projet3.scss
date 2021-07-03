@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+.bordure {
+  border-radius: 15px;
+}
+
+.logo {
+  width: 50%;
+  padding-left: 25%;
+  padding-top: 25px;
+  padding-right: 25%;
+  padding-bottom: 15px;
+}
+
+.coords {
+  font-family: sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25%;
+  background-color: rgb(234, 234, 234);
+  color: rgb(53, 53, 53);
+}
+
+.fa-map-marker-alt {
+  padding-right: 5%;
+}
+
+.reservation {
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: rgb(240, 240, 240);
+}
+
+.reservation h2 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+.reservation p {
+  color: rgb(77, 77, 77);
+  padding-bottom: 30px;
+}
+
+h2 {
+  padding-top: 40px;
+  padding-left: 15px;
+}
+
+.infos {
+  background-color: white;
+}
+
+.bouton {
+  padding-top: 20px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.bouton h3 {
+  padding-right: 20%;
+  float: right;
+}
+
+ol {
+  padding-bottom: 60px;
+}
+
+li {
+  margin-right: 5%;
+  background-color: rgb(240, 240, 240);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.restaurants {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: rgb(240, 240, 240);
+}
+
+.restaurants h2 {
+  padding-bottom: 20px;
+}
+
+.plat {
+  width: 100%;
+}
+
+.menu {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.menutext {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: rgb(53, 53, 53);
+  padding-top: 20px;
+  color: rgb(53, 53, 53);
+}
+
+.footerlogo {
+  padding-left: 20px;
+  width: 25%;
+}
+
+aside {
+  padding-left: 20px;
+  color: white;
+}
+
+.menu-big {
+  width: 100%;
+}
+
+.commande {
+  padding-bottom: 10px;
+  background-color: rgb(240, 240, 240);
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.bouton-commande {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.commander {
+  background-color: rgb(240, 240, 240);
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.boutton {
+  text-decoration: none;
+  margin-left: 22%;
+  margin-right: 22%;
+  text-align: center;
+  border-radius: 30px;
+  background: linear-gradient(175deg, rgb(237, 115, 218), rgb(165, 92, 219));
+  color: white;
+  padding: 1rem;
+}
+
+.fa-store {
+  color: rgb(147 86 220);
+}
+
+.ombre {
+  box-shadow: 0px 0px 20px rgb(195, 195, 195);
+}
+
+.nodecoration {
+  text-decoration: none;
+}
+
+h3 {
+  text-decoration: underline white;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+@import "_boutton.scss";
